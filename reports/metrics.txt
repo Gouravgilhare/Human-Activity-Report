@@ -1,0 +1,27 @@
+Human Activity Recognition - Session-Based Evaluation
+=======================================================
+
+Total samples: 3476
+Total sessions: 2
+Training samples: 462
+Testing samples: 3014
+Training sessions: ['20261024_155435']
+Testing sessions: ['20261024_160036']
+Test accuracy: 0.2750
+
+Classification report:
+              precision    recall  f1-score   support
+
+     sitting       0.91      0.09      0.16      1469
+    standing       0.21      0.36      0.26      1051
+     walking       0.30      0.64      0.41       494
+
+    accuracy                           0.28      3014
+   macro avg       0.47      0.36      0.28      3014
+weighted avg       0.57      0.28      0.24      3014
+
+Confusion matrix (rows=true, columns=predicted):
+Labels: ['sitting', 'standing', 'walking']
+[[ 133 1284   52]
+ [   1  381  669]
+ [  12  167  315]]
